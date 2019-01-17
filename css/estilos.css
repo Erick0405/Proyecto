@@ -1,0 +1,94 @@
+.cinema-body{
+  background-color: #CFC6C3;
+}
+
+.container{
+  background-color: white;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.img1{
+  width: 15%;
+}
+
+.img6{
+width: 10%;
+padding-top: 10%;
+}
+
+.nav{
+  background-color: #E8D813;
+}
+
+a{
+  color: black;
+}
+
+.container-fluid{
+  width: 81%;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.badbunny{
+  width: 100%;
+
+  padding-top: 100px;
+}
+
+.img4{
+  width: 100%;
+  padding-top: 100px;
+}
+
+.lista{
+  padding-top: 20px;
+}
+
+a:hover{
+  background: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+  .imagenes{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:  center;
+  }
+
+  .lista{
+    display: none;
+  }
+
+  .botones{
+    padding-top: 30px;
+  }
+
+  .img4{
+    padding-top: 20px;
+  }
+
+  .container-fluid{
+    width: 100%;
+  }
+
+  .badbunny{
+    padding-top: 20px;
+  }
+
+  .img6{
+    width: 35px;
+  }
+}
